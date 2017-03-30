@@ -1,0 +1,6 @@
+---
+applications:
+- name: sample-jar-external-files
+  memory: 512M
+  instances: 1
+  path: build/distributions/sample-jar-with-files-external-0.0.1-SNAPSHOT.zip
