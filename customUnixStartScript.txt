@@ -1,0 +1,5 @@
+#!/bin/bash
+
+APP_BASE=sample-jar-with-files-external-0.0.1-SNAPSHOT
+
+exec \$JAVA_HOME/bin/java \$CALCULATED_MEMORY -cp "\$APP_BASE/lib/*" io.pivotal.pa.SampleJarWithFilesExternalApplication --filePath=\$APP_BASE/test.txt
